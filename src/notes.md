@@ -19,7 +19,7 @@ With the repo we have prepared, we can start to work with it.
 
 Firstly, we should have some basic knowledge about the difference among workspace, staging area(index or just stage), local repo and remote repo.
 
-![avatar](git-command.png "git command")
+![avatar](imgs/git-command.png "git command")
 
 Workspace: To be intuitively, it's the root folder of your project, which consists of everything under the folder. It's the place where you edit your whole project directly.
 
@@ -37,4 +37,4 @@ Unmodify means unchanged. If we use `git rm`， then it will become "Untracked".
 Modified means changed. We can use `git add` to turn it into "Staged" or just use `git checkout` to reget the source file from the repo and drop the changes sp that it will return to "Unmodify".
 Staged: Use `git commit` to sync to the repo.
 
-![avatar](git-status.png "git status")
+![avatar](imgs/git-status.png "git status")
