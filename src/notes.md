@@ -38,3 +38,14 @@ Modified means changed. We can use `git add` to turn it into "Staged" or just us
 Staged: Use `git commit` to sync to the repo.
 
 ![avatar](imgs/git-status.png "git status")
+
+## about branch
+
+- rename a local branch
+`git branch -m oldName newName`
+
+- delete a remote branch
+`git push origin --delete branchName`
+
+- push the new branch to remote repo
+`git push -u origin branchNameew`
